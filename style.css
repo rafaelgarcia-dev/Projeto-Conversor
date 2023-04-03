@@ -7,21 +7,28 @@
 
 body{
     background-color: #e5e5e5;
-    margin-top: 10px;
-    background-image: url(http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcTnavcE0R1cW9vbZSJU9A_92W41dYEqmnQRVz51osw9lq-dYLXMRz2uqIIL1LrWzvQN);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
     
 }
 
 header{
     background-color: #1B83E2;
     height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
 }
 
 .conteiner{
     width: 375px;
     background-color: #F4F4F4;
-    margin: 0 auto;
-    margin-top: 100px;
+    
+    
 }
 
 h1{
@@ -30,8 +37,7 @@ h1{
     font-size: 24px;
     line-height: 18px;
     color: #F4F4F4;
-    text-align: center;
-    padding-top: 25px;
+    
 }
 
 main{
@@ -98,7 +104,10 @@ button{
 section{
     border: 1px solid #1B83E2;
     border-radius: 4px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 div{
@@ -107,6 +116,9 @@ div{
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bandeira-brasil{
